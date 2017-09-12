@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <template id="assets" inherit_id="point_of_sale.assets">
+      <xpath expr="." position="inside">
+        <script type="text/javascript" src="/ons_scale_tare/static/src/js/scale_tare.js"/>
+        <link rel="stylesheet" href="/ons_scale_tare/static/src/css/tare.css"/> 
+      </xpath>
+    </template>
+  </data>
+</odoo>
